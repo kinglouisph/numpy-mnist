@@ -13,7 +13,7 @@ print("setting up")
 oneOver256 = 1.0 / 256.0
 
 #i am not a python programmer
-for i in range(len(train_x)*0+10000):
+for i in range(len(train_x)*1+0):
     a=[]
     for j in range(28):
         for k in range(28):
@@ -109,6 +109,6 @@ for i in range(len(tinputs)):
     
     if (i % 1000 == 0):
         print((i, correct / (i+1)))
-print("testing data: " + str(correct) + "/"+str(len(tinputs))+", "+str(correct/len(tinputsi)*100.0)+"%")
+print("testing data: " + str(correct) + "/"+str(len(tinputs))+", "+str(correct/len(tinputs)*100.0)+"%")
 
 
