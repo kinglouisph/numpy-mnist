@@ -45,7 +45,7 @@ hiddenSize = 50
 weights1 = np.random.rand(hiddenSize, 28*28)*2-1 #input to hidden
 weights2 = np.random.rand(10, hiddenSize)*2-1 #hidden to output
 
-alpha = 0.006
+alpha = 0.001
 
 for iteration in range(200):
     error = 0
